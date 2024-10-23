@@ -1,0 +1,21 @@
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff5ef; /* Adicionando a cor de fundo */
+  }
+  
+  .section {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  @media (max-width: 768px) {
+    .section {
+      background-size: contain;
+      height: 50vh;
+    }
+  }
+  
